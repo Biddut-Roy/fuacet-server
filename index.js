@@ -9,8 +9,7 @@ const port = process.env.PORT || 5000
 const { MongoClient, ServerApiVersion} = require('mongodb');
 
 app.use(cors({
-    origin: [ 'http://localhost:5173',
-    'http://localhost:5174',
+    origin: [ 'https://65e5b561da7ee1106fba293a--frolicking-heliotrope-f651ef.netlify.app',
 ],
  credentials: true,
 }));
